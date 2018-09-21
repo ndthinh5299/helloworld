@@ -6,7 +6,6 @@ string ltrim(const string &);
 string rtrim(const string &);
 vector<string> split(const string &);
 
-// Complete the dynamicArray function below.
 vector<int> dynamicArray(int n, vector<vector<int>> queries) {
     vector<int> result;
     int last = 0;
